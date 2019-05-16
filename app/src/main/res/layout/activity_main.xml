@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#00BCD4"
+        android:orientation="horizontal"
+        android:layout_weight="33"
+       >
+
+        <LinearLayout
+            android:onClick="cambiarColor"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorAccent"
+            android:id="@+id/caja1"
+            android:orientation="horizontal"></LinearLayout>
+
+        <LinearLayout
+            android:onClick="cambiarColor"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@color/colorPrimary"
+            android:id="@+id/caja2"
+            android:orientation="horizontal"></LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:onClick="cambiarColor"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#00BCD7"
+        android:orientation="horizontal"
+        android:layout_weight="33"
+        android:id="@+id/caja3">
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#00BCD2"
+        android:orientation="horizontal"
+        android:layout_weight="33">
+
+        <LinearLayout
+            android:onClick="cambiarColor"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="33"
+            android:background="@color/colorAccent"
+            android:id="@+id/caja4"
+            android:orientation="horizontal"></LinearLayout>
+
+        <LinearLayout
+            android:onClick="cambiarColor"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="33"
+            android:background="@color/colorPrimaryDark"
+            android:id="@+id/caja5"
+            android:orientation="horizontal"></LinearLayout>
+
+
+        <LinearLayout
+            android:onClick="cambiarColor"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="33"
+            android:background="@color/colorPrimary"
+            android:id="@+id/caja6"
+            android:orientation="horizontal"></LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+    </LinearLayout>
